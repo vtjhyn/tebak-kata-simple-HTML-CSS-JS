@@ -14,7 +14,7 @@ const Timer = maxTime => {
             return timet.innerText = maxTime;
         }
         clearInterval(timer);
-        alert ('WAKTU HABIS GOBLOK!!');
+        alert ('WAKTU HABIS !!!');
         initGame();
     },1000)
 }
@@ -36,7 +36,7 @@ initGame();
 
 const cbtn =() => {
     let inp = inputField.value.toLocaleLowerCase();
-    if( inp !== correctword) return alert('WOYYY! SALAH GOBLOK');
+    if( inp !== correctword) return alert('WOYY SALAH !!!');
         alert('BENARRR')
         initGame();
     
